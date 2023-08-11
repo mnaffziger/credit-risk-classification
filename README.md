@@ -34,7 +34,7 @@ Description of the balanced accuracy scores and the precision and recall scores 
         * Precision" 0.87
         * Recall" 0.89
         * f1-score: 0.88
-        Support: 625 records
+        * Support: 625 records
 
 
 
@@ -50,13 +50,13 @@ Description of the balanced accuracy scores and the precision and recall scores 
         * Precision" 0.87
         * Recall" 1.00
         * f1-score: 0.93
-        Support: 625 records
+        * Support: 625 records
 
 ## Summary
 
 At first glance, I am skeptical of the results.  Credit ratings, and loan approval requirements require a lot of information that is based on parameters that are not discrete.  That is, an applicant can have a vast amount of savings, but horrible debt/income ratio. Do these factors result into a 'Healthy Loan' ?  From the previous value_counts of the original, test, and train outcome values, there was an imbalance of 'Healthy Loan' (value '0') records in the dataset.  Since there are 30 times more datapoints with this value, I am not surprised that the precision, recall, and f1-score are 1.00.  The lower scores (0.87 - 0.89) for the 'High-Risk Loan' (value 1) are justified due to the underrepresentation, 3%, of these outcomes from the original dataset
 
-So, since the classificaiton report contains many values that are 0.87 and greater suggests to me that the model was trained on a dataset that may not be representative of the population it is trying to predict.  From the confusion matrix, the data does not seam balanced between true negative and true positive results.  So, it might be possible that the dataset is inadvertently being skewed/overrepresented towards one particular outcome.
+Since the classificaiton report contains many values that are 0.87 and greater, suggests to me that the model was trained on a dataset that may not be representative of the population it is trying to predict.  From the confusion matrix, the data does not seam balanced between true negative and true positive results.  It might be possible that the dataset is inadvertently being skewed/overrepresented towards one particular outcome.
 
 When the model was fitted with oversampled data, there was an improvement in the 'High-Risk Loan' true positive predictions.  These results also signaled a lower instance of false negative and false positive outcomes.
 
