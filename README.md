@@ -39,18 +39,18 @@ Description of the balanced accuracy scores and the precision and recall scores 
 
 
 * Machine Learning Model 2:
- * Balanced Accuracy Score: 0.996
-   * Classification Report:
-     * Health Loan:
-         * Precision: 1.00
-         * Recall: 1.00
-         * f1-score: 1.00
-         * Support: 18759 records
-     * High Risk Loan:
-         * Precision" 0.87
-         * Recall" 1.00
-         * f1-score: 0.93
-         * Support: 625 records
+   * Balanced Accuracy Score: 0.996
+     * Classification Report:
+       * Health Loan:
+           * Precision: 1.00
+           * Recall: 1.00
+           * f1-score: 1.00
+           * Support: 18759 records
+       * High Risk Loan:
+           * Precision" 0.87
+           * Recall" 1.00
+           * f1-score: 0.93
+           * Support: 625 records
 
 ## Summary
 
