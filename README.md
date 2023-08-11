@@ -23,34 +23,34 @@ Using the provided data above, a Logistical Regression was utilized to determine
 Description of the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1 (original dataset trained model):
-  * Balanced Accuracy Score: 0.944
-  * Classification Report:
-    * Health Loan:
-        * Precision: 1.00
-        * Recall: 1.00
-        * f1-score: 1.00
-        * Support: 18759 records
-    * High Risk Loan:
-        * Precision" 0.87
-        * Recall" 0.89
-        * f1-score: 0.88
-        * Support: 625 records
+   * Balanced Accuracy Score: 0.944
+   * Classification Report:
+     * Health Loan:
+         * Precision: 1.00
+         * Recall: 1.00
+         * f1-score: 1.00
+         * Support: 18759 records
+     * High Risk Loan:
+         * Precision" 0.87
+         * Recall" 0.89
+         * f1-score: 0.88
+         * Support: 625 records
 
 
 
 * Machine Learning Model 2:
-* Balanced Accuracy Score: 0.996
-  * Classification Report:
-    * Health Loan:
-        * Precision: 1.00
-        * Recall: 1.00
-        * f1-score: 1.00
-        * Support: 18759 records
-    * High Risk Loan:
-        * Precision" 0.87
-        * Recall" 1.00
-        * f1-score: 0.93
-        * Support: 625 records
+ * Balanced Accuracy Score: 0.996
+   * Classification Report:
+     * Health Loan:
+         * Precision: 1.00
+         * Recall: 1.00
+         * f1-score: 1.00
+         * Support: 18759 records
+     * High Risk Loan:
+         * Precision" 0.87
+         * Recall" 1.00
+         * f1-score: 0.93
+         * Support: 625 records
 
 ## Summary
 
